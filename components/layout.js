@@ -1,15 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '/public/images/logo_sort.svg';
+import logo from '../public/images/logo_orange.svg';
+import Hero from '../components/hero';
 
 export default function Layout({ children }) {
-    return <main class="container">
-        <nav>
+    return <main>
+
+        <nav className="container">
             <ul>
                 <li>
                     <Link href="/">
                         <Image
                             src={logo}
+                            class="white"
                             alt="Kongsgård Bygg"
                             height={50}
                         />
@@ -21,13 +24,23 @@ export default function Layout({ children }) {
 
             <ul>
                 <li>
-                    <Link href="/">Vår prosjekter</Link>
+                    <Link href="#projects">Våre prosjekter</Link>
                 </li>
                 <li>
-                    <Link href="/">Kontakt oss</Link>
+                    <Link href="#contact">Kontakt oss</Link>
                 </li>
             </ul>
         </nav>
-        {children}
+        <Hero>
+            <hgroup>
+                <h1>Totalleverandør innen bygg og anlegg</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sequi, pariatur reprehenderit fugiat officia.</h2>
+
+            </hgroup>
+        </Hero>
+        <div className='container'>
+            {children}
+
+        </div>
     </main>;
 }
