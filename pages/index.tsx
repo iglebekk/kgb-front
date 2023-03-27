@@ -18,7 +18,7 @@ export default function Home() {
 
         <div>
           <Image
-            src="/../public/images/worker.jpeg"
+            src="/images/worker.jpeg"
             width={1024}
             height={500}
             alt="Bygger"
@@ -35,7 +35,7 @@ export default function Home() {
             <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
 
               <Image
-                src="/../public/images/house.jpg"
+                src="/images/house.jpg"
                 width={500}
                 height={500}
                 alt="Hus"
@@ -48,7 +48,7 @@ export default function Home() {
             <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
 
               <Image
-                src="/../public/images/house.jpg"
+                src="/images/house.jpg"
                 width={500}
                 height={500}
                 alt="Hus"
@@ -61,7 +61,7 @@ export default function Home() {
             <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
 
               <Image
-                src="/../public/images/house.jpg"
+                src="/images/house.jpg"
                 width={500}
                 height={500}
                 alt="Hus"
@@ -76,7 +76,7 @@ export default function Home() {
             <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
 
               <Image
-                src="/../public/images/house.jpg"
+                src="/images/house.jpg"
                 width={500}
                 height={500}
                 alt="Hus"
@@ -89,7 +89,7 @@ export default function Home() {
             <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
 
               <Image
-                src="/../public/images/house.jpg"
+                src="/images/house.jpg"
                 width={500}
                 height={500}
                 alt="Hus"
@@ -102,7 +102,7 @@ export default function Home() {
             <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
 
               <Image
-                src="/../public/images/house.jpg"
+                src="/images/house.jpg"
                 width={500}
                 height={500}
                 alt="Hus"
@@ -131,7 +131,7 @@ export default function Home() {
               <article>
                 <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
                   <Image
-                    src="/../public/images/dan.jpg"
+                    src="/images/dan.jpg"
                     width={200}
                     height={200}
                     alt="Dan<"
@@ -147,7 +147,7 @@ export default function Home() {
               <article>
                 <div style={{ borderRadius: '5px', overflow: 'hidden' }}>
                   <Image
-                    src="/../public/images/dan.jpg"
+                    src="/images/dan.jpg"
                     width={200}
                     height={200}
                     alt="Dan<"
